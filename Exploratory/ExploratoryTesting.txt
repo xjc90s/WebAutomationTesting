@@ -1,0 +1,98 @@
+Describe 3 key Scenarios:
+
+Structured  System Test Plan Key Scenarios
+
+1) Booking Search Form for diferent type of goods (Flight, Boats, Rentals, ..)
+
+   Select the good (ie.Boats)
+   Fill a Destination
+   Pick a date for the rental
+   Select the number of adults
+
+2)c
+
+
+
+
+3)
+
+
+
+
+
+
+DEFECT(found):  when number of adults selected is equal to zero the booking search crashes the whole web phptravels.net application.
+Describe 3 key Scenarios:
+
+Structured  System Test Plan Key Scenarios
+
+1) Booking Search Form for different type of goods (Flight, Boats, Rentals, ..)
+
+   Select the good (ie.Boats)
+   Fill a Destination (ie.Motor boat Custom Build Luxury - 2008 (refit 2008)
+   Pick a date for the rental (ie.22/04/2021)
+   Select the number of adults(ie.2)
+
+2) BOOK a good
+ 2.1)
+  Complete the Dates: 22/04/2021
+  Complete the Price x Adult: ie.2
+    Total USD .ie.$140
+    Deposit Now USD .ie.$0 Total USD .ie.$140
+                   Deposit Now USD .ie.$0
+ 2.2)
+   Complete the mandatory personal details:
+    First Name
+    email and confirm email
+   Verify the book for the user
+        Boats Days1
+        Boats Nights1
+
+        Booking Date
+        22/04/2021
+        Adults (1)
+        $ 140
+        Subtotal
+        $ 140
+
+        Tax / VAT$0
+        Deposit Now$ 0
+        Total Amount $140
+
+
+
+3) Confirmation booking details
+TIMESTAMP:
+.ie.0 Days 23 Hours 56 Minutes 49 Seconds
+
+Types of payments:
+    PAY NOW
+    PAY ON ARRIVAL
+for the Booking Details confirmation.
+
+    Invoice Number 125
+    Booking Number 5709
+    First Name Xavier Cuadrado
+    Address
+    Mobile Number
+
+
+PAY ON ARRIVAL with the booking details
+Motor boat Custom Build Luxury - 2008 (refit 2008)
+Hong Kong
+Summary
+
+    Adults 1 USD / $ 140: USD $140
+    Check in: 22/04/2021
+
+Charge
+
+    Total Stay 1 $0
+    Deposit Now: USD $0
+    Tax / VAT: USD $0
+    Total Amount
+
+
+
+
+DEFECT(found):  when number of adults selected is equal to zero the booking search crashes the whole web phptravels.net application.
