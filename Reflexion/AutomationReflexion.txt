@@ -1,0 +1,2 @@
+The automation testing PhpTravels.java search for the sign in and complete the authentication Form
+The automation testing PhpTravelsNet.java load the PphTravelsNet landing page.

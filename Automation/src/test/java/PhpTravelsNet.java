@@ -27,7 +27,6 @@ public class PhpTravelsNet{
         try{
             WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
             driver.get("https://www.phptravels.net/");
-            // Store the current window handle
         }catch(Exception e){
             System.out.println(e.getMessage());
         }
