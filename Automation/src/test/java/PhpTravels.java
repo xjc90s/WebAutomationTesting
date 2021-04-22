@@ -38,7 +38,7 @@ public class PhpTravels{
             WebElement email =  driver.findElement(By.name("username"));
             email.sendKeys("user@phptravels.com");
             WebElement password = driver.findElement(By.id("inputPassword"));
-            password.sendKeys("demouser    ");
+            password.sendKeys("demouser");
             WebElement checkbox = driver.findElement(By.name("rememberme"));
             checkbox.click();
             WebElement captchaLogin = driver.findElement(By.xpath(("//*[@role='presentation']")));
