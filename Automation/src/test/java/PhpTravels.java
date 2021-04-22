@@ -11,7 +11,7 @@ import java.time.Duration;
 
 public class PhpTravels{
     @Test
-    public void testGoogleSearch() throws InterruptedException {
+    public void LoadPhpTravels() throws InterruptedException {
         ChromeOptions options = new ChromeOptions();
         options.addArguments("start-maximized");
         options.addArguments("enable-automation");
